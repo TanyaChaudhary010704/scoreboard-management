@@ -1,0 +1,30 @@
+form{
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  font-size: 1.5rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.385);
+}
+form input{
+  display: block;
+  padding:1rem;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+form label{
+  display: block;
+  padding:1rem;
+}
+form button{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(75, 150, 172);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
